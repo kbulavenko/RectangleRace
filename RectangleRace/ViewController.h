@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RaceTrack.h"
+
 
 @interface ViewController : UIViewController
 
+@property    RaceTrack    *trackView;
 
 @end
 

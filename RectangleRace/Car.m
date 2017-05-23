@@ -10,4 +10,16 @@
 
 @implementation Car
 
+
+
+
+
+
+
+
+-(CGFloat)carSpeed
+{
+    return 10.0f;
+}
+
 @end

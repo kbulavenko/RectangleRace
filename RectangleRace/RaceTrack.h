@@ -6,8 +6,29 @@
 //  Copyright © 2017  Z. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "Car.h"
+#import "EnviromentUnit.h"
 
-@interface RaceTrack : NSObject
+
+@interface RaceTrack : UIView
+@property    Car    *car;
+@property    NSMutableArray<EnviromentUnit *>   *units;
+@property    NSTimer                            *timer;
+
+-(void)moveMethod: (NSTimer *) timer;
+
+
+
+
 
 @end
+
+
+//@protocol CarSpeed <NSObject>
+//@required
+//
+//-(CGFloat)carSpeed;
+//
+//
+//@end
