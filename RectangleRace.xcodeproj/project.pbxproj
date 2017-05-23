@@ -13,6 +13,10 @@
 		19FA033E1ED42F8B00E9310C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FA033C1ED42F8B00E9310C /* Main.storyboard */; };
 		19FA03401ED42F8C00E9310C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FA033F1ED42F8C00E9310C /* Assets.xcassets */; };
 		19FA03431ED42F8C00E9310C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FA03411ED42F8C00E9310C /* LaunchScreen.storyboard */; };
+		19FA034C1ED4367600E9310C /* RaceTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FA034B1ED4367600E9310C /* RaceTrack.m */; };
+		19FA034F1ED4368300E9310C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FA034E1ED4368300E9310C /* Car.m */; };
+		19FA03521ED4369100E9310C /* Let.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FA03511ED4369100E9310C /* Let.m */; };
+		19FA03551ED436E900E9310C /* EnviromentUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FA03541ED436E900E9310C /* EnviromentUnit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		19FA033F1ED42F8C00E9310C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FA03421ED42F8C00E9310C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19FA03441ED42F8C00E9310C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FA034A1ED4367500E9310C /* RaceTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceTrack.h; sourceTree = "<group>"; };
+		19FA034B1ED4367600E9310C /* RaceTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceTrack.m; sourceTree = "<group>"; };
+		19FA034D1ED4368300E9310C /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		19FA034E1ED4368300E9310C /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		19FA03501ED4369100E9310C /* Let.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Let.h; sourceTree = "<group>"; };
+		19FA03511ED4369100E9310C /* Let.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Let.m; sourceTree = "<group>"; };
+		19FA03531ED436E900E9310C /* EnviromentUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnviromentUnit.h; sourceTree = "<group>"; };
+		19FA03541ED436E900E9310C /* EnviromentUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnviromentUnit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				19FA03371ED42F8B00E9310C /* AppDelegate.m */,
 				19FA03391ED42F8B00E9310C /* ViewController.h */,
 				19FA033A1ED42F8B00E9310C /* ViewController.m */,
+				19FA034A1ED4367500E9310C /* RaceTrack.h */,
+				19FA034B1ED4367600E9310C /* RaceTrack.m */,
+				19FA034D1ED4368300E9310C /* Car.h */,
+				19FA034E1ED4368300E9310C /* Car.m */,
+				19FA03501ED4369100E9310C /* Let.h */,
+				19FA03511ED4369100E9310C /* Let.m */,
+				19FA03531ED436E900E9310C /* EnviromentUnit.h */,
+				19FA03541ED436E900E9310C /* EnviromentUnit.m */,
 				19FA033C1ED42F8B00E9310C /* Main.storyboard */,
 				19FA033F1ED42F8C00E9310C /* Assets.xcassets */,
 				19FA03411ED42F8C00E9310C /* LaunchScreen.storyboard */,
@@ -110,6 +130,7 @@
 				TargetAttributes = {
 					19FA032F1ED42F8900E9310C = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4NUUXC6BSC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FA034F1ED4368300E9310C /* Car.m in Sources */,
 				19FA033B1ED42F8B00E9310C /* ViewController.m in Sources */,
 				19FA03381ED42F8B00E9310C /* AppDelegate.m in Sources */,
+				19FA03521ED4369100E9310C /* Let.m in Sources */,
+				19FA03551ED436E900E9310C /* EnviromentUnit.m in Sources */,
+				19FA034C1ED4367600E9310C /* RaceTrack.m in Sources */,
 				19FA03351ED42F8A00E9310C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NUUXC6BSC;
 				INFOPLIST_FILE = RectangleRace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KonstantinBulavenko.RectangleRace;
@@ -283,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NUUXC6BSC;
 				INFOPLIST_FILE = RectangleRace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KonstantinBulavenko.RectangleRace;
